@@ -1,0 +1,23 @@
+# Core dependencies
+pygame==2.5.2
+pillow==10.1.0
+watchdog==3.0.0
+python-dotenv==1.0.0
+
+# Arweave upload via arseeding
+arseeding==0.0.6
+everpay==1.0.2
+
+# Ethereum/Web3 for ZORA minting
+web3==6.11.3
+eth-account==0.10.0
+
+# QR code generation
+qrcode[pil]==7.4.2
+
+# Platform-specific printing (Windows)
+pywin32==306; sys_platform == 'win32'
+
+# Cross-platform printing alternative
+pycups==2.0.1; sys_platform != 'win32'
+
